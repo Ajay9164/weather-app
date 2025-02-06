@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("https://source.unsplash.com/1600x900/?sky,clouds") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  width: 250px;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-btn {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #ff9800;
+  color: white;
+  border-radius: 5px;
+}
+
+.dark-mode {
+  background: black;
+  color: white;
+}
+
+.voice-btn {
+  background: #4caf50;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+body {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+/* Light Mode (Default) */
+body {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Dark Mode Button */
+.toggle-dark-mode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #444;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.toggle-dark-mode:hover {
+  background: #666;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #1e1e1e;
+  color: white;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode-btn {
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode .dark-mode-btn {
+  background: #fff;
+  color: #000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  transition: background 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
