@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-const API_KEY = "45c630785375979d482c634d16fcda6a"; // 🔥 Replace with your OpenWeather API key
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 export const fetchWeather = createAsyncThunk(
   "weather/fetchWeather",

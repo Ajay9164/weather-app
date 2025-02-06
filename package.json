@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
+    "dotenv": "^16.4.7",
     "openai": "^4.83.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
